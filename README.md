@@ -1,6 +1,6 @@
 # check-ignore.py
-  This script is used to check which files in the specified directory are ignored based on the rules defined in the .gitignore file. <br>
 <br>
+
 ```
 usage: check_ignore.py [-h] [--ignore GITIGNORE] [--allow DIR] [--deny DIR]
 
@@ -13,7 +13,7 @@ options:
   --deny DIR          Show files denied (ignored) under the directory
 
 Note:
-  This script is used to check whether files in a specified directory are ignored based on the rules defined in a .gitignore file.
+  This script is used to check which files in the specified directory are ignored based on the rules defined in the .gitignore file.
 
   Requires the 'pathspec' module.
   You can install it using:
