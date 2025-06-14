@@ -8,8 +8,7 @@ from pathlib import Path
 
 HELP_FOOTER = r"""
 Note:
-  This script is used to check whether files in a specified directory are ignored based on the rules defined in a .gitignore file.
-
+  This script is used to check which files in the specified directory are ignored based on the rules defined in the .gitignore file.
   Requires the 'pathspec' module.
   You can install it using:
 
@@ -17,7 +16,7 @@ Note:
 
   Example for Windows:
     > check_ignore.py --allow D:\Users\staff\Example\Source
-    > check_ignore.py --ignore D:\\temp\\ignotefile.txt --allow D:\\Users\\staff\\Example\\Source
+    > check_ignore.py --ignore D:\temp\ignotefile.txt --allow D:\Users\staff\Example\Source
 
   Example for Mac/Linux:
     > check_ignore.py --allow /home/staff/Example/Source
